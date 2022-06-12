@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="new-task">TODO List App</label>
+        <p>
+        <input id="new-task" type="text"><button class="addbutton">Add</button>
+        </p>
+        
+        <h3>Pending</h3>
+        <ul id="incomplete-tasks">
+          <li><input type="checkbox"><label>Wash the dog</label><input type="text"><button class="delete">Delete</button></li>
+          <li><input type="checkbox"><label>Feed the dog</label><input type="text" value="Go Shopping"><button class="delete">Delete</button></li>
+          
+        </ul>
+        
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+          <li><input type="checkbox" checked ><label>Clean the garage</label><input type="text"><button class="delete">Delete</button></li>
+          <li><input type="checkbox" checked ><label>Mow the lawn</label><input type="text"><button class="delete">Delete</button></li>
+        </ul>
+    </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
